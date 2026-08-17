@@ -180,7 +180,7 @@ class AurbSpherePainter extends CustomPainter {
           Colors.white.withOpacity(0.5),
           Colors.white.withOpacity(0.0),
         ],
-      ).createShader(Rect.fromOval(Rect.fromLTWH(size.width * 0.15, size.height * 0.05, size.width * 0.5, size.height * 0.3)));
+      ).createShader(Rect.fromLTWH(size.width * 0.15, size.height * 0.05, size.width * 0.5, size.height * 0.3));
     
     canvas.drawOval(
       Rect.fromLTWH(size.width * 0.15, size.height * 0.05, size.width * 0.5, size.height * 0.3),
